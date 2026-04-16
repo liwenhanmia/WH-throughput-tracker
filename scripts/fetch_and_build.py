@@ -1,5 +1,5 @@
 """
-fetch_and_build.py  (v3 — 60s inter-WH wait, open_by_key retry, batch reads)
+fetch_and_build.py  (v3 — 30s inter-WH wait, open_by_key retry, batch reads)
 """
 import os, json, time, datetime
 from pathlib import Path
