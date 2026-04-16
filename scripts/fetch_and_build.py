@@ -194,8 +194,8 @@ def fetch_all():
 
     for idx, (wh, sid) in enumerate(cfg.items()):
         if idx > 0:
-            print(f"  Waiting 60s before {wh} (rate limit buffer)...")
-            time.sleep(60)
+            print(f"  Waiting 30s before {wh} (rate limit buffer)...")
+            time.sleep(30)
 
         print(f"\nReading {wh} — ID length={len(sid)}, value={repr(sid)}")
 
