@@ -197,7 +197,7 @@ def fetch_all():
             print(f"  Waiting 60s before {wh} (rate limit buffer)...")
             time.sleep(60)
 
-        print(f"\nReading {wh} ({sid[:8]}...)")
+        print(f"\nReading {wh} — ID length={len(sid)}, value={repr(sid)}")
 
         # Open spreadsheet — with retry for empty-response errors
         sh = open_sheet(gc, sid)
